@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StoreGrades">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/storeGradeTitle"
+            android:textSize="28sp" />
+
+        <LinearLayout
+            style="@style/SubjectLayout">
+            <TextView
+                style="@style/SubjectTextView"
+                android:text="Name"
+                />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter your name"
+                android:id="@+id/std_name"/>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/SubjectLayout">
+            <TextView
+                style="@style/SubjectTextView"
+                android:text="Class"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter your class"
+                android:id="@+id/std_class"/>
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/SubjectLayout">
+
+            <TextView
+                style="@style/SubjectTextView"
+                android:text="@string/subject1_name" />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:hint="Enter maths no"
+                android:id="@+id/std_subject1"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/SubjectLayout">
+
+            <TextView
+                style="@style/SubjectTextView"
+                android:text="@string/subject2_name" />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter english no"
+                android:id="@+id/std_subject2"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/SubjectLayout">
+
+            <TextView
+                style="@style/SubjectTextView"
+                android:text="@string/subject3_name" />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter phy no"
+                android:id="@+id/std_subject3"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/SubjectLayout">
+
+            <TextView
+                style="@style/SubjectTextView"
+                android:text="@string/subject4_name" />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter urdu no"
+                android:id="@+id/std_subject4"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/SubjectLayout">
+
+            <TextView
+                style="@style/SubjectTextView"
+                android:text="@string/subject5_name" />
+
+            <EditText
+                android:layout_width="150dp"
+
+                android:layout_height="wrap_content"
+                android:hint="Enter CS no"
+                android:id="@+id/std_subject5"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Add Student"
+            android:id="@+id/btn_addStudent"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="check"
+            android:onClick="checkInput"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+</ScrollView>

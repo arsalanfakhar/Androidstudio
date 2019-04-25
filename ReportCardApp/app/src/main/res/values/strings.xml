@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Report Card App</string>
+    <string name="btn1_name">Store Grades</string>
+    <string name="btn2_name">View Grades</string>
+    <string name="storeGradeTitle">Report Card</string>
+    <string name="subject1_name">Maths</string>
+    <string name="subject2_name">English</string>
+    <string name="subject3_name">Physics</string>
+    <string name="subject4_name">Urdu</string>
+    <string name="subject5_name">Computer Science</string>
+</resources>
