@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_9f53cec2e893eed0394c9068530e841d8bcca941.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.3.0_a9df98d744950653964f9a5a8d01267fb62a784a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_37e243463040047cea4f9bb78a9463101aa9f7c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arsalan\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_05807b098fa05e3aac4699e67c5b9ae61447e1d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_39046720254855c25a6d3c58def40a365fd6bf04.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_2f5eae148ced2f2a29d61ab0b0687f9dfebaf67e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_3d5cbaef93cbc8e65abc8a316895725196d59ce4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\Arsalan\AndroidStudioProjects\Udacity\ud839_Miwok-Starter-code\ud839_Miwok\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.3.0_a549af97a226fc4255ff2460a005743c462802db.jar" />
+    </item>
+
+</items>
