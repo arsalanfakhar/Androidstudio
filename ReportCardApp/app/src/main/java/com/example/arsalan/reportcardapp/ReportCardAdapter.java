@@ -21,7 +21,7 @@ public class ReportCardAdapter extends ArrayAdapter<ReportCard> {
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if an existing view is being reused, otherwise inflate the view
         View listItemView=convertView;
-        if(convertView==null){
+        if(listItemView==null){
             //Inflate View
             listItemView=LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
         }
@@ -38,21 +38,20 @@ public class ReportCardAdapter extends ArrayAdapter<ReportCard> {
         TextView urduText=listItemView.findViewById(R.id.view_urdu_marks);
         TextView csText=listItemView.findViewById(R.id.view_CS_marks);
 
-        studentNum.setText(studentNum.getText().toString()+(position+1));
+        studentNum.setText("Student "+String.valueOf(position+1) );
+        nameText.setText("Name: "+currentReportCard.getmName());
 
-        nameText.setText(nameText.getText().toString()+currentReportCard.getmName());
+        classText.setText("Class: "+currentReportCard.getmClass());
 
-        classText.setText(classText.getText().toString()+currentReportCard.getmClass());
+        mathText.setText("Maths: "+currentReportCard.getmMathsGrade());
 
-        mathText.setText(mathText.getText().toString()+currentReportCard.getmMathsGrade());
+        engText.setText("Eng: "+currentReportCard.getmEngGrade());
 
-        engText.setText(engText.getText().toString()+currentReportCard.getmEngGrade());
+        phyText.setText("Phy: "+currentReportCard.getmPhyGrade());
 
-        phyText.setText(phyText.getText().toString()+currentReportCard.getmPhyGrade());
+        urduText.setText("Urdu: "+currentReportCard.getmUrduGrade());
 
-        urduText.setText(urduText.getText().toString()+currentReportCard.getmUrduGrade());
-
-        csText.setText(csText.getText().toString()+currentReportCard.getmCSGrade());
+        csText.setText("CS: "+currentReportCard.getmCSGrade());
 
         return listItemView;
     }

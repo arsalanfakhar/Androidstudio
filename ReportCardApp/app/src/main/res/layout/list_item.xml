@@ -18,45 +18,58 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
+        tools:text="Name"
         android:id="@+id/view_name"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Class"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
         android:id="@+id/view_class"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Maths"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
         android:id="@+id/view_math_marks"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Eng"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
         android:id="@+id/view_eng_marks"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Phy"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
         android:id="@+id/view_phy_marks"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Urdu"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
         android:id="@+id/view_urdu_marks"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CS"
-        android:id="@+id/view_CS_marks"
-        />
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/view_CS_marks" />
     <!--<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
